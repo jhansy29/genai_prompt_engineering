@@ -13,11 +13,12 @@ Note: first, you need to [Configure your Lab Enviroment](./CONFIG.md)
 
 # Prompt Engineering Techniques
 
-* [Zero-Shot](prompt-eng/zero_shot.ipynb)
-* [Few-Shot](prompt-eng/few_shot.ipynb)
-* [Prompt Template](prompt-eng/prompt_template.ipynb)
+* [Zero-Shot](prompt-eng/zeroshot.ipynb)
+* [Few-Shot](prompt-eng/few_shots.ipynb)
 * [Chain-of-Thought](prompt-eng/chain_of_thought.ipynb)
-* (more to come)
+* [Chain-of-Thought-level2](prompt-eng/chain_of_thought_level1.ipynb)
+* [Meta-Self-Evaluation](prompt-eng/meta_selfeval.ipynb)
+* [Self-Consistency](prompt-eng/self_consistency.ipynb)
 
 
 
