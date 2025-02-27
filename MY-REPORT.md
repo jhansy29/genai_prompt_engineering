@@ -71,55 +71,55 @@ We analyze the outputs from each method to determine their effectiveness in hand
 <!-- WHEN APPLICABLE AND AVAILABLE -->
 
 # Results
-* Zero-Shot Learning - Level 0 Automation:
+1. Zero-Shot Learning - Level 0 Automation:
 
-1. Effective for tasks with well-defined patterns but struggled with ambiguous or complex reasoning.
+* Effective for tasks with well-defined patterns but struggled with ambiguous or complex reasoning.
 
-2. Lower accuracy compared to few-shot and CoT approaches.
+* Lower accuracy compared to few-shot and CoT approaches.
 
-* Few-Shot Learning - Level 0 Automation:
+2. Few-Shot Learning - Level 0 Automation:
 
-1. Demonstrated significant improvements in response quality when provided with a few examples.
+* Demonstrated significant improvements in response quality when provided with a few examples.
 
-2. Reduced hallucinations compared to zero-shot learning.
+* Reduced hallucinations compared to zero-shot learning.
 
-* Chain of Thought (CoT) - Level 2 Automation:
+3.  Chain of Thought (CoT) - Level 2 Automation:
 
-1. Improved answer accuracy by breaking down complex problems into logical steps.
+* Improved answer accuracy by breaking down complex problems into logical steps.
 
-2. This method breaked down its thought process into clear, logical steps rather than providing an opaque or unstructured answer.
+* This method breaked down its thought process into clear, logical steps rather than providing an opaque or unstructured answer.
 
-* Meta Self-Evaluation - Level 2 Automation:
+4. Meta Self-Evaluation - Level 2 Automation:
 
-1. Helped refine responses by enabling models to critique their own outputs.
+* Helped refine responses by enabling models to critique their own outputs.
 
-2. Enhanced decision-making in uncertain scenarios.
+* Enhanced decision-making in uncertain scenarios.
 
-3. However, it failed to generate a specific requirement analysis for the use case, instead producing a generalized requirement analysis.
+* However, it failed to generate a specific requirement analysis for the use case, instead producing a generalized requirement analysis.
 
-* Self-Consistency - Level 2 Automation:
+4. Self-Consistency - Level 2 Automation:
 
-1. Increased reliability by selecting the most frequent response from multiple generated answers.
+* Increased reliability by selecting the most frequent response from multiple generated answers.
 
-2. This method improves the accuracy of generating a response compared to generating a single response without additional validation.
+* This method improves the accuracy of generating a response compared to generating a single response without additional validation.
 
-* Temperature Parameter Experimentation - Level 1 Automation:
+5. Temperature Parameter Experimentation - Level 1 Automation:
 
-1. Lower temperatures resulted in more structured and deterministic responses.
+* Lower temperatures resulted in more structured and deterministic responses.
 
-2. Higher temperatures led to more diverse answers but sometimes introduced inconsistencies.
+* Higher temperatures led to more diverse answers but sometimes introduced inconsistencies.
 
-3. The model at lower temperatures (0.3) provided detailed requirement analysis relevant to the use case, whereas at higher temperatures (0.7), it generated more abstract and generalized results.
+* The model at lower temperatures (0.3) provided detailed requirement analysis relevant to the use case, whereas at higher temperatures (0.7), it generated more abstract and generalized results.
 
-4. Finding an optimal balance is crucial for requirement analysis tasks.
+* Finding an optimal balance is crucial for requirement analysis tasks.
 
-* Level of Automation Analysis:
+6. Level of Automation Analysis:
 
-1. Level 2 Automation: Chain of Thought and Self-Consistency provided the highest level of automation by reducing human intervention in requirement analysis.
+* Level 2 Automation: Chain of Thought and Self-Consistency provided the highest level of automation by reducing human intervention in requirement analysis.
 
-2. Level 0 Automation: Zero-Shot Learning and Few-Shot Learning exhibited the lowest automation level due to their dependency on pre-defined patterns and lack of contextual adaptation.
+* Level 0 Automation: Zero-Shot Learning and Few-Shot Learning exhibited the lowest automation level due to their dependency on pre-defined patterns and lack of contextual adaptation.
 
-3. The overall trend indicated that the combination of Chain of Thought and Self-Consistency achieved the most effective automated requirement analysis with minimal manual refinement.
+* The overall trend indicated that the combination of Chain of Thought and Self-Consistency achieved the most effective automated requirement analysis with minimal manual refinement.
 
 # Conclusion
 From our analysis of various Prompt Engineering techniques for Requirement Analysis in SDLC, it is evident that automation plays a crucial role in improving accuracy and efficiency. Among the methods tested:
