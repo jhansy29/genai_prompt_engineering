@@ -97,13 +97,13 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * However, it failed to generate a specific requirement analysis for the use case, instead producing a generalized requirement analysis.
 
-4. Self-Consistency - Level 2 Automation:
+5. Self-Consistency - Level 2 Automation:
 
 * Increased reliability by selecting the most frequent response from multiple generated answers.
 
 * This method improves the accuracy of generating a response compared to generating a single response without additional validation.
 
-5. Temperature Parameter Experimentation - Level 1 Automation:
+6. Temperature Parameter Experimentation - Level 1 Automation:
 
 * Lower temperatures resulted in more structured and deterministic responses.
 
@@ -113,7 +113,7 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * Finding an optimal balance is crucial for requirement analysis tasks.
 
-6. Level of Automation Analysis:
+7. Level of Automation Analysis:
 
 * Level 2 Automation: Chain of Thought and Self-Consistency provided the highest level of automation by reducing human intervention in requirement analysis.
 
