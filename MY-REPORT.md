@@ -77,17 +77,29 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * Lower accuracy compared to few-shot and CoT approaches.
 
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 13.667, 0.7 - 15.697, 1.0 - 20.562
+
+* ![alt text](image.png)
+
 2. Few-Shot Learning - Level 0 Automation:
 
 * Demonstrated significant improvements in response quality when provided with a few examples.
 
 * Reduced hallucinations compared to zero-shot learning.
 
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 14.283, 0.7 - 14.601, 1.0 - 18.667
+
+* ![alt text](image-1.png)
+
 3.  Chain of Thought (CoT) - Level 2 Automation:
 
 * Improved answer accuracy by breaking down complex problems into logical steps.
 
 * This method breaked down its thought process into clear, logical steps rather than providing an opaque or unstructured answer.
+
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 22.295, 0.7 -16.908 , 1.0 - 20.298
+
+* ![alt text](image-2.png)
 
 4. Meta Self-Evaluation - Level 2 Automation:
 
@@ -97,11 +109,15 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * However, it failed to generate a specific requirement analysis for the use case, instead producing a generalized requirement analysis.
 
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - , 0.7 - , 1.0 - 
+
 5. Self-Consistency - Level 2 Automation:
 
 * Increased reliability by selecting the most frequent response from multiple generated answers.
 
 * This method improves the accuracy of generating a response compared to generating a single response without additional validation.
+
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - , 0.7 - , 1.0 - 
 
 6. Temperature Parameter Experimentation - Level 1 Automation:
 
