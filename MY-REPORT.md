@@ -97,7 +97,7 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * This method breaked down its thought process into clear, logical steps rather than providing an opaque or unstructured answer.
 
-* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 22.295, 0.7 -16.908 , 1.0 - 20.298
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 50.422, 0.7 - 50.114 , 1.0 - 44.425
 
 * ![alt text](image-2.png)
 
@@ -109,7 +109,9 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * However, it failed to generate a specific requirement analysis for the use case, instead producing a generalized requirement analysis.
 
-* Response Times (seconds) for Corresponding Temperature Values: 0.3 - , 0.7 - , 1.0 - 
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 86.92 , 0.7 - 90.06, 1.0 -  85.982
+
+* ![alt text](image-3.png)  
 
 5. Self-Consistency - Level 2 Automation:
 
@@ -117,7 +119,9 @@ We analyze the outputs from each method to determine their effectiveness in hand
 
 * This method improves the accuracy of generating a response compared to generating a single response without additional validation.
 
-* Response Times (seconds) for Corresponding Temperature Values: 0.3 - , 0.7 - , 1.0 - 
+* Response Times (seconds) for Corresponding Temperature Values: 0.3 - 87.71800000000002, 0.7 - 84.679, 1.0 - 88.387
+
+* ![alt text](image-4.png)
 
 6. Temperature Parameter Experimentation - Level 1 Automation:
 
@@ -155,6 +159,8 @@ From our analysis of various Prompt Engineering techniques for Requirement Analy
 * Automation Analysis showed that Chain of Thought, and Self-Consistency provided the highest level of automation while maintaining accuracy and relevance.
 
 Based on these findings, a combination of Chain of Thought, and Self-Consistency provides the most effective automated requirement analysis in SDLC. These techniques collectively balance structure, adaptability, and reliability, making them suitable for automating the requirement analysis process while maintaining accuracy and relevance. Future research should focus on hybrid models that integrate these techniques dynamically based on task complexity.
+
+Additionally, response time analysis suggests that higher levels of automation introduce longer response times, particularly in Chain of Thought and Self-Consistency, which require additional computational steps. Future research should explore optimizing response efficiency without compromising accuracy.
 
 # Further research
 
